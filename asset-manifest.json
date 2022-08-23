@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ndulefy%20/static/css/main.a42b1e94.css",
+    "main.js": "/ndulefy%20/static/js/main.0aea808e.js",
+    "static/js/787.6d185335.chunk.js": "/ndulefy%20/static/js/787.6d185335.chunk.js",
+    "static/media/logo.png": "/ndulefy%20/static/media/logo.807c6f70e6d0b77e289b.png",
+    "static/media/music.jpg": "/ndulefy%20/static/media/music.47a7f695ba2966f9911c.jpg",
+    "static/media/emma.JPG": "/ndulefy%20/static/media/emma.86aad9afb7ba4a7fcdcb.JPG",
+    "index.html": "/ndulefy%20/index.html",
+    "main.a42b1e94.css.map": "/ndulefy%20/static/css/main.a42b1e94.css.map",
+    "main.0aea808e.js.map": "/ndulefy%20/static/js/main.0aea808e.js.map",
+    "787.6d185335.chunk.js.map": "/ndulefy%20/static/js/787.6d185335.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a42b1e94.css",
+    "static/js/main.0aea808e.js"
+  ]
+}
