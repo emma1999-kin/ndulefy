@@ -1,0 +1,70 @@
+.artist
+{
+    width: 9.4rem;
+    height: 14rem;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    border-radius:10px;
+    justify-content: space-around;
+    transition: 0.6s;
+    
+}
+.star
+{
+width: 8.7rem;
+height: 8.7rem;
+margin-top: 5px;
+margin-left: 5px;
+margin-right: 5px;
+background:url(/music.jpg);
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+border-radius: 10px;
+}
+.artist:hover
+{   
+    background-color: rgba(82, 87, 88, 0.596);
+    /* transform: scale(1.0.2); */
+}
+/* .artist.play:hover
+{   
+    background-color: rgba(48, 224, 63, 0.596);
+    width: 2rem;
+    height: 2rem;
+    color: black;
+} */
+
+.titre
+{
+color: white;
+margin-left: 10px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.name
+{
+color: white;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+.button
+{ margin-left: 7rem;
+  padding-right: 0.1rem;
+  padding-bottom: 10px;
+  transition: 0.4s;
+  
+}
+.button:shadow
+{ 
+  transform: scale(1.1);
+  
+}
+.button:hover
+{
+    transform: scale(1.2);
+}

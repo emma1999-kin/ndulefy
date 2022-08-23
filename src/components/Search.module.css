@@ -1,0 +1,35 @@
+
+.input {
+    width: 55%;
+    height: 1rem;
+    background: #fff;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 1.8rem 2rem;
+    /* padding-left: 2rem; */
+    border-radius: 2.5rem;
+  }
+  .input:hover span {
+    color: var(--secondary-color);
+    transition: all 300ms ease-in-out;
+  }
+  input {
+    width: 100%;
+    font-size: 1.1rem;
+    margin-left: 1.6rem;
+    font-family: "Inria Sans", sans-serif;
+    padding-bottom: 0.4rem;
+    /* color:var(--color-grise); */
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  appearance: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}

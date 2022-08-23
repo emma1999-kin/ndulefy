@@ -1,0 +1,80 @@
+.containerMain{
+    background:url(/music.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.textOne{
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 2.2rem;
+}
+.textTwo{
+    color: white;
+    font-size: 3rem; 
+    text-align: center;
+}
+
+.lien
+{
+    text-align: center;
+    position: center;
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+    width: 30%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+}
+.lien:hover{
+    background-color: rgb(67, 70, 71);
+}
+.root
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(240, 56, 56);
+    font-weight: bold;
+}
+.root:hover{
+    color: rgb(230, 223, 223);
+}
+.para
+{
+color: antiquewhite;
+font-size: 1.5rem;
+text-align: center;
+}
+.image
+{ margin-left: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    background: rgb(48, 49, 49);
+    height: 5rem;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

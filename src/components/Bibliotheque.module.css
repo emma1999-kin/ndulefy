@@ -1,0 +1,148 @@
+
+*{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.master
+{
+    display: grid;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+
+}
+
+.start{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .header
+  {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 1rem;
+  }
+  .block2{
+    display: flex;
+    flex-direction: column;
+    height: 1700px;
+    width: 82%;
+    background: rgb(8, 8, 8);
+  
+    
+  }
+  .block1{
+    display: flex;
+    flex-direction: column;
+    height: 570px;
+    width: 18%;
+    background:rgb(19, 18, 18);
+    gap: 1rem;
+    border-color: black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  .block1:shadow
+  {
+   height: 600px;
+  }
+  .block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background: rgb(46, 46, 46);
+    position: fixed;
+    bottom: 0;
+  }
+
+.logo1
+{
+    display: flex;
+    align-items: center;
+    background: rgb(48, 49, 49);
+    height: 7rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.image1
+{ margin-left: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+.textOne1
+{
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 2.2rem;
+}
+.mouv
+{
+    padding-left: 15rem;
+    gap: 1rem;
+}
+.image3
+{
+  margin-left: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.name{
+    color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+.logout
+{
+    margin-left: 100px;
+}
+.root
+{
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
+}
+.titre{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: 14px;
+}
+.pos
+{
+
+  display: flex;
+  align-items: center;
+  background: rgb(24, 24, 24);
+  height: 1.8rem;
+  width: 100%;
+  padding: 3.5rem 1rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.title h3
+{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: beige;
+  font-size: 25px;
+}
