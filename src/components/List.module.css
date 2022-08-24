@@ -15,6 +15,7 @@
     margin-left: 0.3rem;
     font-weight: bold;
     transition: 0.5s;
+    padding-bottom: 4px;
 }
 .em:hover{
     color:rgb(247, 8, 8);

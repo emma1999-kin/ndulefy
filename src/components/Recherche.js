@@ -9,9 +9,8 @@ import Clip from './Clip';
 import {Bibliocontext} from './BibliUseContext';
 import SpotifyPlayer from 'react-spotify-web-playback';
 import Titre from './Titre';
-import '../style.css'
 
-function Bibliotheque() {
+function Recherche() {
     const [token, setToken] = useState("")
 
     useEffect(() => {
@@ -28,9 +27,14 @@ function Bibliotheque() {
         setToken(token)
     
     }, [])
+
+    
+
+    /*Creation boutton quitter*/
+
     return (
         <>
-        <Bibliocontext.Provider value={{token,setToken}}>
+            <Bibliocontext.Provider value={{token,setToken}}>
             <div className={styles.master}>
                 <div className={styles.start}>
                     <div className={styles.block1}>
@@ -39,17 +43,17 @@ function Bibliotheque() {
                             <h1 className={styles.textOne1}>ndulefy</h1>
                         </div>
                         <div className={styles.titre}>
-                           <List/>
+                           <div><List/></div> 
                         </div>
                     </div>
                     <div className={styles.block2}>
                         <div className={styles.pos}>
-                            <Titre/>
+                            <Search/>
                             <Compte/>
                             <Logout/>
                         </div>
                         <div className={styles.title}>
-                            <h3 >Musiques récentes:</h3>
+                            <h3 >Résultats :</h3>
                         </div>
                         <div>
                             <Clip/>  
@@ -67,11 +71,11 @@ function Bibliotheque() {
                         trackArtistColor : '# ccc' , 
                         trackNameColor : '#fff' , 
                     }} 
-  token="BQC6sua8ANzrqFprccrMalEwYDvWxoB-baBImSv0jCOZxnhPzAD_Zvw-KsZvdZnyClfsI9m3dqmC6iEjsw5C2dn-Y0evWTW4roi8KtgOfCCPRV_8HjJTq-ZG9H7In-u8CoDC2HV5c1GCFXNwbqj0lUVyHUXAO45WFbpc6NG4ULPAmPBU_kjx4XmwdNLJtp_Srfq6lRraCbqgSY4Ve3b8VWEonmY9ypUjFpU1zTRaWrjxZ_PyTmcEVOruO3ldalsMAmQ0S65DZsv_p1ubcRfUlzYUstU_pRKNvXv4im3hxzifXNTrvAoY_98sZTBt_2xJaP3hBjcoK0FIP5P2m-M"
+  token="BQCEE_E2swSP8Bi0DRiwZmqexoU-MdaTZst7oqn3PXc7wCANNqzmPz_BRaBZK1M7PBi-JRCnkKwJPrJ74Y-Uf1taBfCAXcX-eWGMELbGbzpVv3R452D7G5aGE8W5IZVPjNCxNVqkPLy_rLT4UNUA9HQLk6KGx0dBnFd-97pRo1tT6SteZ2JUMtwqBmxyba1JsaxyDE3ml_BaoH-RQ0uwnV7_nV7NFAfJYefBv1oI1nLYCRWf9m5vy1SfiIBy4KB2V9DTrvxNjtIgh0ITh-1ilZd7XWLBKh1gJudSAQ0uAN4w6aRqfxb107IYPcGsRfe8F-3J0nadWVCS-recKpE"
   uris={['spotify:artist:6HQYnRM4OzToCYPpVBInuU']}
   auplay={true}
   persistDeviceSelection={true}
-  name="Ndulefy"
+  name="Spotify Web Player"
   showSaveIcon={true}
   initialVolume={.5}
 />
@@ -79,8 +83,8 @@ function Bibliotheque() {
                 </div>
             </div>
 
-        </Bibliocontext.Provider>
-     </>
+            </Bibliocontext.Provider>
+        </>
     )
 }
-export default Bibliotheque;
+export default Recherche;

@@ -5,66 +5,70 @@
     background-color: rgb(31, 30, 30);
     display: flex;
     flex-direction: column;
-    text-align: justify;
     margin-top: 0.6rem;
     margin-left: 1rem;
     border-radius:10px;
     justify-content: space-around;
     transition: 0.6s;
-    
 }
 .star
 {
 width: 8.7rem;
-height: 8.7rem;
+height: 6rem;
 margin-top: 5px;
 margin-left: 5px;
 margin-right: 5px;
-background:url(/music.jpg);
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
 border-radius: 10px;
+box-sizing: border-box;
 }
-.artist:hover
-{   
-    background-color: rgba(82, 87, 88, 0.596);
-    /* transform: scale(1.0.2); */
+.artist .button
+{
+  padding-right: 0.7rem;
+  display: flex;
+  justify-content: flex-end;
+  visibility: hidden;
+  transition: .2s ease-in-out;
+  padding-bottom: 10px;
 }
-/* .artist.play:hover
+.artist:hover{
+  background-color: rgb(73, 74, 75);
+}
+.artist:hover .button
 {   
-    background-color: rgba(48, 224, 63, 0.596);
-    width: 2rem;
-    height: 2rem;
-    color: black;
-} */
+ visibility: visible;
 
+ 
+}
+.artist:hover .button:hover
+{   
+  
+  transform: scale(1.1);
+}
+
+
+.raw{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
 .titre
 {
 color: white;
-margin-left: 10px;
 margin-bottom: 5px;
-margin-top: 5px;
+font-size: 12px;
 }
 .name
 {
 color: white;
-margin-left: 10px;
-margin-bottom: 10px;
+font-size: 15px;
+font-weight: bold;
 }
-.button
-{ margin-left: 7rem;
-  padding-right: 0.1rem;
-  padding-bottom: 10px;
-  transition: 0.4s;
-  
-}
-.button:shadow
-{ 
-  transform: scale(1.1);
-  
-}
-.button:hover
-{
-    transform: scale(1.2);
-}
+.header
+  {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 1rem;
+  }

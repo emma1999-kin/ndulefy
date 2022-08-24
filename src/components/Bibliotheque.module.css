@@ -22,20 +22,13 @@
     width: 100%;
     height: 100%;
   }
-  .header
-  {
-    display: flex;
-    flex-wrap: wrap; 
-    margin: 1rem;
-  }
+  
   .block2{
     display: flex;
     flex-direction: column;
-    height: 1700px;
+    height: 1250px;
     width: 82%;
     background: rgb(8, 8, 8);
-  
-    
   }
   .block1{
     display: flex;
@@ -59,7 +52,7 @@
     justify-content: center;
     height: 70px;
     width: 100%;
-    background: rgb(46, 46, 46);
+    /* background: rgb(46, 46, 46); */
     position: fixed;
     bottom: 0;
   }
@@ -130,6 +123,7 @@
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: rgb(24, 24, 24);
   height: 1.8rem;
   width: 100%;

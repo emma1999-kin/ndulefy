@@ -7,8 +7,10 @@ function Connexion() {
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
     const RESPONSE_TYPE = "token"
     const SCOPE = ["user-read-email","user-read-private",
-                   "user-modify-playback-state","user-read-playback-state",
-                   "user-read-currently-playing","user-read-recently-played",
+                   "user-modify-playback-state",
+                   "user-read-playback-state",
+                   "user-read-currently-playing",
+                   "user-read-recently-played",
                    "user-read-playback-position",
                    " user-top-read"]
     
@@ -27,7 +29,7 @@ function Connexion() {
           </p>
           <div className={styles.button}>
           <button className={styles.lien}>
-            <a  className={styles.root} href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Connectez-vous</a> 
+            <a  className={styles.root} href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&scope=${SCOPE}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}&show_dialog=true`}>Connectez-vous</a> 
           </button> 
           </div>
         </div>
