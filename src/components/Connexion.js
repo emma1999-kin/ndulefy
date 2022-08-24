@@ -3,7 +3,8 @@ import Logo from '../logo.png'
 function Connexion() {
 
     const CLIENT_ID = "fbb5509b0ab341e9a844f065e6e7129b"
-    const REDIRECT_URI = "http://localhost:3000/bibliotheque"
+    // const REDIRECT_URI = "http://localhost:3000/bibliotheque"
+    const REDIRECT_URI = "https://ndulefy.vercel.app/bibliotheque"
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
     const RESPONSE_TYPE = "token"
     const SCOPE = ["user-read-email","user-read-private",
