@@ -9,7 +9,7 @@ import SpotifyWebApi from 'spotify-web-api-js';
 import styles from './components/Bibliotheque.module.css'
 import SpotifyPlayer from 'react-spotify-web-playback';
 
-function App() {
+ function App() {
   const [uri, setUri] = useState("")
   const [token, setToken] = useState("")
   const [user, setUser] = useState({})
@@ -79,6 +79,7 @@ function App() {
         />
       </div>}
     </globalContext.Provider>)
-}
+
+        }
 
 export default App;

@@ -35,11 +35,11 @@ function Bibliotheque() {
                             <Compte />
                             <Logout />
                         </div>
-                    
+                        <div className={styles.affichage}></div>
                         <div className={styles.title}>
                             <h3 >Musiques récentes:</h3>
                         </div>
-                        <div className={styles.affichage}>
+                        <div>
                             <Clip />
                         </div>
                     </div>
