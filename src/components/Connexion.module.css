@@ -18,17 +18,17 @@
     box-sizing: border-box;
 }
 .aligne{
-    margin-top: 3rem;
-    gap:3rem;
+    margin-top: 5rem;
+    padding: 3rem;
+    gap:4rem;
     display: flex;
     flex-direction: column;
-
 }
 
 .textOne{
     margin-bottom: 0.5rem;
     color: white;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 .textTwo{
     color: white;
@@ -54,7 +54,7 @@
 .root
 {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1rem;
     color: rgb(240, 56, 56);
     font-weight: bold;
 }

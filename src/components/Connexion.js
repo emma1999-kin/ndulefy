@@ -36,7 +36,6 @@ function Connexion() {
           <h1 className={styles.textOne}>ndulefy</h1>
         </div>
         <div className={styles.aligne}>
-
           <div >
             <h1 className={styles.textTwo}>
               L'écoute est tout.
