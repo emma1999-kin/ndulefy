@@ -1,0 +1,33 @@
+.home
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 1.5rem;
+ transform: scale(1);
+ margin-top: 150px;
+ 
+}
+.em{
+    color:rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 1rem;
+    font-weight: bold;
+    transition: 0.5s;
+    padding-bottom: 4px;
+}
+.em:hover{
+    color:rgb(247, 8, 8);
+    transform: scale(1.1);
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 1.5rem 1rem;
+    width: 13rem;
+}

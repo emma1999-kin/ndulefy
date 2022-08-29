@@ -1,0 +1,96 @@
+.containerMain{
+    background:url(/music.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.aligne{
+    margin-top: 3rem;
+    gap:3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textOne{
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 2.2rem;
+}
+.textTwo{
+    color: white;
+    font-size: 4rem; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.lien
+{
+    text-align: center;
+    position: center;
+    background-color: white;
+    border-radius: 30px;
+    border-color: white;
+    width: 25%;
+    padding: 1rem;
+    box-sizing: content-box;
+}
+.lien:hover{
+    background-color: rgb(67, 70, 71);
+}
+.root
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(240, 56, 56);
+    font-weight: bold;
+}
+.root:hover{
+    color: rgb(230, 223, 223);
+}
+.para
+{
+color: antiquewhite;
+font-size: 1.5rem;
+text-align: center;
+}
+.image
+{ margin-left: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    background: rgb(48, 49, 49);
+    height: 6rem;
+    top: 0;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+@media screen and (max-width: 500px)
+{
+    *{
+        box-sizing:content-box ;
+    }
+   
+}
